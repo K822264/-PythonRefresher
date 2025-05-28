@@ -1,2 +1,3 @@
 # -PythonRefresher
-This is my Computation Project - computation.ipynb
+This is my Information Security, Governance and Cloud Project - computation.py
+It computes mathematical problems with the application of functions
