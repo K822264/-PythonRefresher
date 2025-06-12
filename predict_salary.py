@@ -2,7 +2,9 @@ import pickle # Used to load our ML model - model.pkl
 import numpy as np
 import streamlit as st # Main library used to create interactive apps 
 
-model = pickle.load(open('model.pkl', 'rb'))
+
+with open("model.pkl", "rb") as f:
+    model = pickle.load(f)
 # this loads the trained model from the file model.pkl
 # 'rb'- binary read mode to read our pickle file since it is in a binary format
 
